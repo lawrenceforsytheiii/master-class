@@ -107,8 +107,9 @@ const handlers = {};
 
 // Ping Handler
 handlers.ping = (data, callback) => {
+  // Callback a http status code, and a payload object
   callback(200);
-}
+};
 
 // Not found handler
 handlers.notFound = (data, callback) => {
